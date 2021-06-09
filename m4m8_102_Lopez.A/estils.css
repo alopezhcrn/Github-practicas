@@ -1,0 +1,111 @@
+body{
+  background-color: #69E2FD;
+}
+
+.fachada{
+width: 400px;
+height: 300px;
+background-color: white;
+position: absolute;
+left: 400px;
+top: 300px;
+border:solid 4px black;
+}
+
+.tejado{
+  width: 450px;
+  height: 100px;
+  background-color: #873953;
+  position: absolute;
+  left: 375px;
+  top: 200px;
+  border:solid 4px black;
+}
+
+.ventana1{
+  width: 50px;
+  height: 50px;
+  background-color: #C1DEE4;
+  position: absolute;
+  left: 460px;
+  top: 330px;
+  border:solid 4px black;
+}
+
+.ventana2{
+  width: 50px;
+  height: 50px;
+  background-color: #C1DEE4;
+  position: absolute;
+  left: 690px;
+  top: 330px;
+  border:solid 4px black;
+}
+
+.puerta{
+  width: 50px;
+  height: 70px;
+  background-color: brown;
+  position: absolute;
+  left: 570px;
+  top: 430px;
+  border:solid 4px black;
+}
+
+.chimenea{
+  width: 30px;
+  height: 60px;
+  background-color: #552C14;
+  position: absolute;
+  left: 750px;
+  top: 170px;
+  border:solid 4px black;
+}
+
+.base{
+  width: 150%;
+  height: 50%;
+  background-color: #048B1A;
+  position: absolute;
+  left: 0px;
+  bottom: -83px;
+}
+
+.sol{
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  position: absolute;
+  top: 50px;
+  left: 1500px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 100px 100px white;
+}
+
+.montana1{
+width: 400px;
+height: 500px;
+background-color: #127530;
+left: 100px;
+clip-path: polygon(45% 0, 81% 34%, 100% 100%, 7% 100%);
+}
+
+.montana2{
+width: 400px;
+height: 500px;
+position: absolute;
+left: 700px;
+top: 10px;
+background-color: #29A94F;
+clip-path: polygon(77% 8%, 78% 55%, 100% 100%, 0% 100%);
+}
+
+.montana3{
+width: 400px;
+height: 700px;
+position: absolute;
+left: 580px;
+top: -50px;
+background-color: #32A545;
+clip-path: polygon(48% 14%, 63% 55%, 99% 100%, 0% 100%);
+}

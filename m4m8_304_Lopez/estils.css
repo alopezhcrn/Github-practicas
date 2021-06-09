@@ -1,0 +1,96 @@
+body{
+background-color: cyan;
+}
+
+#contenidor{
+  background-color: pink;
+  height: 600px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#nav{
+height: 100px;
+}
+
+.boletes:hover{
+  opacity: 75%;
+  transform: scale(1.5);
+}
+
+.boletes{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  float: left;
+  border-radius: 50px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  line-height: 100px
+}
+
+.caixes{
+  width: 400px;
+  height: 400px;
+  float: left;
+  font-family: sans-serif;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 400px;
+  text-align: center;
+}
+
+
+
+
+#boleta1{
+  background-color: purple;
+  margin-left: 200px;
+}
+
+#boleta2{
+  background-color: navy;
+}
+
+#boleta3{
+  background-color: orange;
+}
+
+#boleta4{
+  background-color: yellow;
+}
+
+
+
+#caixa1{
+  width: 400px;
+  height: 400px;
+  background-color: navy;
+  float:left;
+}
+
+#caixa2{
+  width: 400px;
+  height: 400px;
+  background-color: orange;
+  float: right;
+}
+
+#footer{
+  width: 800px;
+  height: 100px;
+  background-color: yellow;
+  float: left;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+
+
+
+
+
+}

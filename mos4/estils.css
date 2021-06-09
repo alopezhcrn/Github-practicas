@@ -1,0 +1,45 @@
+body{
+  background-color: cyan;
+  margin: 0;
+}
+
+div{
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  float: left;
+  background-image: url(img/ragnar.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  font-family: sans-serif;
+  font-size: 35px;
+  line-height: 350px;
+  text-indent: 150px;
+  -webkit-text-stroke: 1px red;
+}
+
+
+#boton{
+  background-image: none;
+  font-size: 20px;
+  line-height: inherit;
+  text-indent: inherit;
+  -webkit-text-stroke: 0px;
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 200px;
+  float: right;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  color: green;
+}

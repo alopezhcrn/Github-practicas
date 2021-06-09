@@ -1,0 +1,46 @@
+body{
+background-color: pink;
+
+}
+h1{
+ text-align: center;
+}
+
+#contenedor{
+background-color: lightblue;
+width: 235px;
+height: 300px;
+margin: 0 auto;
+}
+
+input{
+  display: block;
+  margin: 10px
+}
+
+form{
+  padding: 8px;
+  margin-left: 50px;
+
+}
+
+.cajitas{
+  width: 200px;
+  height: 35px;
+  background-color: lightgreen;
+}
+
+.cajitas, p{
+  font-family: monospace;
+}
+
+#submit{
+background-color: lightyellow;
+padding: 5px;
+margin: 0 auto;
+}
+
+#submit, p{
+  font-family: monospace;
+  color: purple;
+}

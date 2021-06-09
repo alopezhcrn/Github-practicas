@@ -1,0 +1,24 @@
+@media screen and (min-width: 769px) and (max-width: 1024px){
+body{background-color: lightpink;
+
+}
+
+#header{
+  background-color: red;
+  width: 1024px;
+  height: 70px;
+  text-align: center;
+}
+
+.cuadrados{
+  width: 60px;
+  height: 60px;
+}
+
+
+
+
+
+
+
+}

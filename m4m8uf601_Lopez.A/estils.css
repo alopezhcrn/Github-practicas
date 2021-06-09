@@ -1,0 +1,66 @@
+body{
+  background-color: cyan;
+font-family: 'Ranchers', cursive;
+  font-size: 15px;
+}
+
+.cuadres{
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: pink;
+  transition: 1s;
+}
+
+#uno{
+  background-color: indianred;
+}
+
+#dos{
+  background-color: lightcoral;
+}
+
+#tres{
+  background-color: salmon;
+}
+
+#cuatro{
+  background-color: lightsalmon;
+}
+
+@media screen and (max-width: 820px) {
+    body{
+      background-color: yellow;
+    }
+    #uno{
+      background-color: red;
+      width: 50px;
+      height: 50px;
+      transform: rotate(360deg);
+    }
+    #dos{
+      background-color: orange;
+      width: 50px;
+      height: 50px;
+      transform: rotate(360deg);
+    }
+    #tres{
+      background-color: green;
+      width: 50px;
+      height: 50px;
+      transform: rotate(360deg);
+    }
+    #cuatro{
+      background-color: blue;
+      width: 50px;
+      height: 50px;
+      transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    body{
+      background-color: lightgreen;
+    }
+
+}

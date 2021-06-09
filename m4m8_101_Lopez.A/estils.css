@@ -1,0 +1,44 @@
+body{
+background-color: cyan;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+  }
+
+  h1{
+
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .corazon{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin: 200px auto;
+    position: relative;
+  }
+
+  .corazon:before, .corazon:after{
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+background-color: red;
+border-radius: 50%;
+}
+
+.corazon:before{
+  top: 0;
+  left: -50%;
+}
+
+.corazon:after{
+  top: -50%;
+  left: 0;
+}

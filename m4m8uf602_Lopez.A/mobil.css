@@ -1,0 +1,72 @@
+@media screen and (max-width: 424px){
+body{background-color: #FEE2DC;
+}
+
+#header{
+  background-color: #6EE9B3;
+  width: 365px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  position: fixed;
+  overflow-x: hidden;
+}
+
+.cuadrados{
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  line-height: 140px;
+}
+
+#uno{
+  background-color:#065542;
+  top: 125px;
+  position: absolute;
+}
+
+#dos{
+  background-color:#54A095;
+  top: 125px;
+  position: absolute;
+  margin-left: 225px;
+}
+
+#tres{
+  background-color: cyan;
+  top: 295px;
+  position: absolute;
+  margin-left: 225px;
+}
+
+#cuatro{
+  background-color: #808080;
+  top: 295px;
+  position: absolute;
+}
+
+#titulo{
+  background-color: #6EE9B3;
+  width: 365px;
+  height: 100px;
+  top: 450px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+}
+
+#footer{
+  background-color: #6EE9B3;
+  width: 365px;
+  height: 100px;
+  top: 570px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+
+
+
+}
